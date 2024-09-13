@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import "./colors.scss";
+
+@import "./partials/_sidebar.scss";
+
+@import "./partials/_main.scss";
+
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+.container-scroll {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Libre Baskerville", serif;
+}
+
+img{
+  width: 130%;
+
+}
+
+ul {
+  list-style: none;
+  
+}
+
+p{
+  text-align: justify;
+  margin-top: 10px;
+  
+}
+
+.container-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 745px) {
+  main{
+    background-color: $highlight-color;
+  }
+}
+
+
+
