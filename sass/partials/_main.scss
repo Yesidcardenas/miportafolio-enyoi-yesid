@@ -1,6 +1,6 @@
 .main-content {
     width: 80%;
-    height: auto;
+    height: max-content;
     position: relative;
     left: 20%; //posición del contenedor a la izquierda
 
@@ -72,7 +72,7 @@
         border: 1px solid $highlight-color;
         border-radius: 5px;
         overflow-y: scroll;
-        height: 373px; 
+        height: 381px;
         
     
         .card-container{

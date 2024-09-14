@@ -80,7 +80,8 @@
 
 .main-content {
   width: 80%;
-  height: auto;
+  height: -moz-max-content;
+  height: max-content;
   position: relative;
   left: 20%;
 }
@@ -141,7 +142,7 @@
   border: 1px solid #9FC131;
   border-radius: 5px;
   overflow-y: scroll;
-  height: 373px;
+  height: 381px;
 }
 .container-scroll .card-container {
   display: flex;
